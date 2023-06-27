@@ -18,6 +18,13 @@
 		54211A6A2A48211A000EB02E /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54211A692A48211A000EB02E /* DownloadsViewController.swift */; };
 		54211A732A482839000EB02E /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54211A722A482839000EB02E /* CollectionViewTableViewCell.swift */; };
 		54211A752A482EA6000EB02E /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54211A742A482EA6000EB02E /* HeroHeaderUIView.swift */; };
+		5474D8072A4ABEDE00F57146 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474D8062A4ABEDE00F57146 /* Title.swift */; };
+		5474D8092A4AC3B800F57146 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474D8082A4AC3B800F57146 /* Extensions.swift */; };
+		5474D80D2A4AD2AA00F57146 /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474D80C2A4AD2AA00F57146 /* TitleCollectionViewCell.swift */; };
+		5474D8102A4AD42A00F57146 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 5474D80F2A4AD42A00F57146 /* SDWebImage */; };
+		5474D8122A4AD42A00F57146 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5474D8112A4AD42A00F57146 /* SDWebImageMapKit */; };
+		5474D8142A4B501400F57146 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474D8132A4B501400F57146 /* TitleTableViewCell.swift */; };
+		5474D8162A4B577800F57146 /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474D8152A4B577800F57146 /* TitleViewModel.swift */; };
 		547C5A7A2A49AF51004618A0 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547C5A792A49AF51004618A0 /* APICaller.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +42,11 @@
 		54211A692A48211A000EB02E /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 		54211A722A482839000EB02E /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		54211A742A482EA6000EB02E /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
+		5474D8062A4ABEDE00F57146 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		5474D8082A4AC3B800F57146 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		5474D80C2A4AD2AA00F57146 /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
+		5474D8132A4B501400F57146 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		5474D8152A4B577800F57146 /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
 		547C5A792A49AF51004618A0 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -43,6 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5474D8122A4AD42A00F57146 /* SDWebImageMapKit in Frameworks */,
+				5474D8102A4AD42A00F57146 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +114,8 @@
 			children = (
 				54211A722A482839000EB02E /* CollectionViewTableViewCell.swift */,
 				54211A742A482EA6000EB02E /* HeroHeaderUIView.swift */,
+				5474D80C2A4AD2AA00F57146 /* TitleCollectionViewCell.swift */,
+				5474D8132A4B501400F57146 /* TitleTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -107,6 +123,7 @@
 		54211A6C2A4827BD000EB02E /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				5474D8152A4B577800F57146 /* TitleViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -114,6 +131,7 @@
 		54211A6D2A4827C7000EB02E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				5474D8062A4ABEDE00F57146 /* Title.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -121,6 +139,7 @@
 		54211A6E2A4827E0000EB02E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5474D8082A4AC3B800F57146 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -149,6 +168,10 @@
 			dependencies = (
 			);
 			name = "Netflix Clone";
+			packageProductDependencies = (
+				5474D80F2A4AD42A00F57146 /* SDWebImage */,
+				5474D8112A4AD42A00F57146 /* SDWebImageMapKit */,
+			);
 			productName = "Netflix Clone";
 			productReference = 54211A4A2A480DC5000EB02E /* Netflix Clone.app */;
 			productType = "com.apple.product-type.application";
@@ -177,6 +200,9 @@
 				Base,
 			);
 			mainGroup = 54211A412A480DC5000EB02E;
+			packageReferences = (
+				5474D80E2A4AD42A00F57146 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 54211A4B2A480DC5000EB02E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -203,16 +229,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5474D8142A4B501400F57146 /* TitleTableViewCell.swift in Sources */,
 				54211A672A481205000EB02E /* SearchViewController.swift in Sources */,
+				5474D80D2A4AD2AA00F57146 /* TitleCollectionViewCell.swift in Sources */,
 				54211A522A480DC5000EB02E /* MainTabBarViewController.swift in Sources */,
 				54211A732A482839000EB02E /* CollectionViewTableViewCell.swift in Sources */,
 				547C5A7A2A49AF51004618A0 /* APICaller.swift in Sources */,
 				54211A752A482EA6000EB02E /* HeroHeaderUIView.swift in Sources */,
 				54211A6A2A48211A000EB02E /* DownloadsViewController.swift in Sources */,
 				54211A4E2A480DC5000EB02E /* AppDelegate.swift in Sources */,
+				5474D8092A4AC3B800F57146 /* Extensions.swift in Sources */,
 				54211A502A480DC5000EB02E /* SceneDelegate.swift in Sources */,
 				54211A652A4811E4000EB02E /* UpcomingViewController.swift in Sources */,
+				5474D8072A4ABEDE00F57146 /* Title.swift in Sources */,
 				54211A632A481181000EB02E /* HomeViewController.swift in Sources */,
+				5474D8162A4B577800F57146 /* TitleViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +451,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5474D80E2A4AD42A00F57146 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5474D80F2A4AD42A00F57146 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5474D80E2A4AD42A00F57146 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		5474D8112A4AD42A00F57146 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5474D80E2A4AD42A00F57146 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 54211A422A480DC5000EB02E /* Project object */;
 }
