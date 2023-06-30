@@ -35,7 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		54211A4A2A480DC5000EB02E /* Netflix Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Netflix Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54211A4A2A480DC5000EB02E /* jutsu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jutsu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54211A4D2A480DC5000EB02E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54211A4F2A480DC5000EB02E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		54211A512A480DC5000EB02E /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 		54211A412A480DC5000EB02E = {
 			isa = PBXGroup;
 			children = (
-				54211A4C2A480DC5000EB02E /* Netflix Clone */,
+				54211A4C2A480DC5000EB02E /* jutsu */,
 				54211A4B2A480DC5000EB02E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,12 +86,12 @@
 		54211A4B2A480DC5000EB02E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				54211A4A2A480DC5000EB02E /* Netflix Clone.app */,
+				54211A4A2A480DC5000EB02E /* jutsu.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		54211A4C2A480DC5000EB02E /* Netflix Clone */ = {
+		54211A4C2A480DC5000EB02E /* jutsu */ = {
 			isa = PBXGroup;
 			children = (
 				54211A6F2A4827E7000EB02E /* Managers */,
@@ -105,7 +105,7 @@
 				54211A5B2A480DC6000EB02E /* Info.plist */,
 				546B941E2A4DE32D0077840C /* NetflixCloneModel.xcdatamodeld */,
 			);
-			path = "Netflix Clone";
+			path = jutsu;
 			sourceTree = "<group>";
 		};
 		54211A612A48114A000EB02E /* Controllers */ = {
@@ -189,9 +189,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		54211A492A480DC5000EB02E /* Netflix Clone */ = {
+		54211A492A480DC5000EB02E /* jutsu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 54211A5E2A480DC6000EB02E /* Build configuration list for PBXNativeTarget "Netflix Clone" */;
+			buildConfigurationList = 54211A5E2A480DC6000EB02E /* Build configuration list for PBXNativeTarget "jutsu" */;
 			buildPhases = (
 				54211A462A480DC5000EB02E /* Sources */,
 				54211A472A480DC5000EB02E /* Frameworks */,
@@ -201,13 +201,13 @@
 			);
 			dependencies = (
 			);
-			name = "Netflix Clone";
+			name = jutsu;
 			packageProductDependencies = (
 				5474D80F2A4AD42A00F57146 /* SDWebImage */,
 				5474D8112A4AD42A00F57146 /* SDWebImageMapKit */,
 			);
 			productName = "Netflix Clone";
-			productReference = 54211A4A2A480DC5000EB02E /* Netflix Clone.app */;
+			productReference = 54211A4A2A480DC5000EB02E /* jutsu.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -225,7 +225,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 54211A452A480DC5000EB02E /* Build configuration list for PBXProject "Netflix Clone" */;
+			buildConfigurationList = 54211A452A480DC5000EB02E /* Build configuration list for PBXProject "jutsu" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -241,7 +241,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				54211A492A480DC5000EB02E /* Netflix Clone */,
+				54211A492A480DC5000EB02E /* jutsu */,
 			);
 		};
 /* End PBXProject section */
@@ -351,7 +351,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -405,7 +405,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -424,7 +424,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G3GHD95S4N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Netflix Clone/Info.plist";
+				INFOPLIST_FILE = jutsu/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -434,11 +435,14 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rustem.Netflix-Clone";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rustem.jutsu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -451,7 +455,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G3GHD95S4N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Netflix Clone/Info.plist";
+				INFOPLIST_FILE = jutsu/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -461,18 +466,21 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rustem.Netflix-Clone";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rustem.jutsu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		54211A452A480DC5000EB02E /* Build configuration list for PBXProject "Netflix Clone" */ = {
+		54211A452A480DC5000EB02E /* Build configuration list for PBXProject "jutsu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				54211A5C2A480DC6000EB02E /* Debug */,
@@ -481,7 +489,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		54211A5E2A480DC6000EB02E /* Build configuration list for PBXNativeTarget "Netflix Clone" */ = {
+		54211A5E2A480DC6000EB02E /* Build configuration list for PBXNativeTarget "jutsu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				54211A5F2A480DC6000EB02E /* Debug */,

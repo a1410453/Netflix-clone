@@ -35,7 +35,7 @@ class HeroHeaderUIView: UIView {
         let imageView = UIImageView()
         imageView.contentMode = .scaleAspectFill
         imageView.clipsToBounds = true
-        //imageView.image = UIImage(named: "heroImage")
+        imageView.image = UIImage(named: "heroImage")
         return imageView
     }()
     
@@ -77,9 +77,9 @@ class HeroHeaderUIView: UIView {
     }
     
     public func configure(with model: TitleViewModel){
-        guard let url = URL(string: "https://image.tmdb.org/t/p/w500/\(model.posterURL)") else {return}
+        //guard let url = URL(string: "https://image.tmdb.org/t/p/w500/\(model.posterURL)") else {return}
         
-        heroImageView.sd_setImage(with: url, completed: nil)
+        //heroImageView.sd_setImage(with: url, completed: nil)
     }
     
     override func layoutSubviews() {
