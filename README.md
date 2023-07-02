@@ -5,4 +5,4 @@
 
 
  <br>
-Stacks: Swift, UIKit,TMDBAPI(TheMovieDatabase),URLSession,MVVM, CoreData.
+Stacks: Swift, UIKit, TMDBAPI(TheMovieDatabase), URLSession,MVVM, CoreData.
